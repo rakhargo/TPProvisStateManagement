@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                         child: ListView.builder(
                           itemCount: produkList.length,
                           itemBuilder: (context, index) {
-                            if (produkList[0].name != "") {
+                            // if (produkList[0].name != "") {
                               return ListTile(
                                   leading: Image.network(
                                       'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                                       return DetailProdukPage();
                                     }));
                                   });
-                            }
+                            // }
                           },
                         ),
                       );
