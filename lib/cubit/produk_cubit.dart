@@ -14,7 +14,8 @@ class produkCubit extends Cubit<produkModel> {
             location: "",
             price: 0,
             condition: "",
-            publish_date: ""
+            publish_date: "",
+            image: ""
             ));
 
   //map dari json ke atribut
@@ -26,6 +27,7 @@ class produkCubit extends Cubit<produkModel> {
     int price = json['price'];
     String condition = json['condition'];
     String publish_date = json['publish_date'];
+    String image = json['image'];
 //emit state baru, ini berbeda dgn provider!
     emit(produkModel(
         id: id,
@@ -34,7 +36,8 @@ class produkCubit extends Cubit<produkModel> {
         location: location,
         price: price,
         condition: condition,
-        publish_date: publish_date
+        publish_date: publish_date,
+        image: image,
         ));
   }
 

@@ -6,6 +6,7 @@ class produkModel {
   int price;
   String condition;
   String publish_date;
+  String image;
 
   produkModel(
       {required this.id,
@@ -14,6 +15,7 @@ class produkModel {
       required this.location,
       required this.price,
       required this.condition,
-      required this.publish_date
+      required this.publish_date,
+      required this.image
       }); //constructor
 }

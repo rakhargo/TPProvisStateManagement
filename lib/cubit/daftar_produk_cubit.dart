@@ -14,7 +14,8 @@ class produkListCubit extends Cubit<List<produkModel>> {
               location: "",
               price: 0,
               condition: "",
-              publish_date: ""
+              publish_date: "",
+              image: "",
               )
         ]);
 
@@ -29,7 +30,8 @@ class produkListCubit extends Cubit<List<produkModel>> {
             location: e['location'],
             price: e['price'],
             condition: e['condition'],
-            publish_date: e['publish_date']
+            publish_date: e['publish_date'],
+            image: e['image']
             ))
         .toList();
     emit(umkmList);
