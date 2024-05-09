@@ -86,7 +86,7 @@ class HomePage extends StatelessWidget {
                                 (
                                     leading: Image.asset
                                     (
-                                      'images/${produkList[index].image}'
+                                      'images/${produkList[index].image}',
                                     ),
                                     title: Text(produkList[index].name),
                                     subtitle: Text(produkList[index].category),
