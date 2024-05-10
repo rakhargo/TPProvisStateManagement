@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
                                     subtitle: Text("Jenis: ${produk.category}"),
                                     onTap: () {
                                       Navigator.of(context).push(
-                                          MaterialPageRoute(builder: (context) => DetailProdukPage(
+                                          MaterialPageRoute(builder: (conteUserApixt) => DetailProdukPage(
 
                                     id: produk.id)));
                                     });
