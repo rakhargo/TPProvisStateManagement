@@ -1,16 +1,8 @@
 # tp_state_management
 
-A new Flutter project.
+Rakha Dhifiargo Hariadi (2209489)
+Jason Rafif Pangestu Suryoatmojo (2204524)
 
-## Getting Started
+![image](https://github.com/rakhargo/TPProvisStateManagement/assets/117525800/e1be9faa-a924-4b81-8573-c5d5139ff728)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/rakhargo/TPProvisStateManagement/assets/117525800/7d328e8e-3e5a-492a-8429-3bf053966339)
