@@ -196,6 +196,66 @@ class _DetailProdukPageState extends State<DetailProdukPage>
                               );
                             }
                           ),
+                          const SizedBox(height: 10,),
+                          Row
+                          (
+                            children: 
+                            [
+                              const Text
+                              (
+                                "Tanggal Publish",
+                              ),
+                              const SizedBox(width: 30),
+                              Text
+                              (
+                                produkDetail.publish_date,
+                                style: const TextStyle
+                                (
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Container // garis abu
+                          (
+                            decoration: const BoxDecoration
+                            (
+                              border: Border
+                              (
+                                bottom: BorderSide(color: Colors.grey, width: 1),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 10,),
+                          Row
+                          (
+                            children: 
+                            [
+                              const Text
+                              (
+                                "Category",
+                              ),
+                              const SizedBox(width: 75),
+                              Text
+                              (
+                                produkDetail.category,
+                                style: const TextStyle
+                                (
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Container // garis abu
+                          (
+                            decoration: const BoxDecoration
+                            (
+                              border: Border
+                              (
+                                bottom: BorderSide(color: Colors.grey, width: 1),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     )
