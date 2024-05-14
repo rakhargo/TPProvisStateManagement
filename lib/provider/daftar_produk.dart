@@ -1,16 +1,16 @@
 import 'package:flutter/widgets.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:tp_state_management/provider/produk_state.dart';
+import 'produk_state.dart';
 
 class ProdukList with ChangeNotifier {
   String url = "http://127.0.0.1:8000/daftar_produk";
-  List<dynamic> _produkList = [];
-  List<dynamic> get produkList => _produkList;
+  List<ProdukModel> _produkList = [];
+  List<ProdukModel> get produkList => _produkList;
 
-  List<dynamic> setFromJson(Map<String, dynamic> json) {
+  List<ProdukModel> setFromJson(Map<String, dynamic> json) {
     _produkList = (json['data'] as List)
-        .map((e) => Produk(
+        .map((e) => ProdukModel(
             id: e['id'],
             name: e['name'],
             category: e['category'],

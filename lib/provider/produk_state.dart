@@ -1,4 +1,4 @@
-class Produk {
+class ProdukModel {
   final String id;
   final String name;
   final String category;
@@ -8,7 +8,7 @@ class Produk {
   final String publish_date;
   final String image;
 
-  Produk({
+  ProdukModel({
     required this.id,
     required this.name,
     required this.category,
